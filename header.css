@@ -1,0 +1,50 @@
+header{
+    padding: 100px 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
+.header_text{
+    width: 850px;
+}
+.circle{
+    height: 600px;
+    width: 600px;
+    overflow: hidden;
+    border-radius: 50%;
+    border: 20px solid var(--main-brand-color);
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.circle img{
+    width: 100%;
+}
+nav{
+    margin-bottom: 120px;
+}
+nav ul{
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+nav a{
+    color: var(--secondary-text-color);
+    text-decoration: none;
+    position: relative;
+    padding: 3px;
+}
+nav a:hover{
+    color: var(--text-color);
+}
+nav a::after{
+    content: '';
+    height: 2px;
+    width: 100%;
+    background: var(--main-brand-color);
+    position: absolute;
+        bottom: 0%;
+    left: 0%;
+}
