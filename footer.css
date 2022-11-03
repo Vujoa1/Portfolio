@@ -54,7 +54,7 @@ footer h2{
 }
 @media(max-width: 1300px){
     .grid_container{
-        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-columns: 1fr 1fr;
         grid-template-rows: 300px 300px 300px;
 
         grid-template-areas: 
@@ -76,7 +76,7 @@ footer h2{
     }
 }
 @media(max-Width: 650px){
-    footer 52{
+    footer h2{
         font-size: 9vw;
     }
     .grid_item{
