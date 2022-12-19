@@ -23,3 +23,4 @@ document.addEventListener('DOMContentLoaded', () => {
   }
   delayMouseFollow();
 });
+<!--Quelle:https://getbutterfly.com/how-and-why-i-added-a-circle-following-my-mouse-pointer/-->
